@@ -1,29 +1,3299 @@
-    样式
-标志位含义
-    模块离线
-    1
-B
-    通道断线（Break）
-    通道短路（ShortCircuit）
-    4
-    超量程上限
-    眼（Upper Limit）
-    8
-    超量程下限
-    （Lower Limit）
-    16
-    偶校验出错
-    （Even Check)32
-    品质位出错（QualityFault）64
-    开关触点故障或抖动（ContactFault）
-    256
-    替代512
-    强制（Force）1024-强制在state实现。
-    上下位机通讯故障
-    2048
-    频率异常
-    128
-    通道过流
-    8192
-    功能块运算错误
-    4096
+{
+    "document": {
+        "ver": 10,
+        "name": "移动特性",
+        "code": "1861687284732874752",
+        "author": "",
+        "company": "",
+        "desc": "",
+        "date": "2024-11-27T15:49:50Z",
+        "scadaType": "1",
+        "pageProperty": {
+            "latestIndex": 100000,
+            "gridBlockSize": 10,
+            "gridThickLinesEvery": 10,
+            "bgPic": 0,
+            "area": 0,
+            "showScale": false,
+            "ver": 10,
+            "screenSize": 0,
+            "templateRef": "",
+            "bgColor": "#dedede",
+            "auth": 1,
+            "pageWidth": 1910,
+            "refreshCycle": "1000",
+            "pageHeight": 962,
+            "ratio": 0,
+            "name": "移动特性",
+            "code": "1861687284732874752",
+            "author": "",
+            "company": "",
+            "desc": "",
+            "scadaType": "1",
+            "width": 1910,
+            "height": 962
+        },
+        "pageParams": [],
+        "layers": [
+            {
+                "id": "1",
+                "name": "",
+                "visible": true,
+                "selectable": true,
+                "moveable": true
+            }
+        ],
+        "elements": [
+            {
+                "id": "1113_1113",
+                "moveable": true,
+                "text": "5paH5a2X",
+                "name": "Text1113",
+                "width": 102,
+                "underline": false,
+                "deleteline": false,
+                "font": "Arial,50,-1,5,1,0,0,0,0,0",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "vertical": false,
+                "textVer": 1,
+                "blink": false,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "文字",
+                "zIndex": 0,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 2,
+                        "bRun": true,
+                        "pars": {
+                            "e1Des": {
+                                "ref": "",
+                                "original": ""
+                            },
+                            "ofItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "OF",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "e0Des": {
+                                "ref": "",
+                                "original": ""
+                            },
+                            "blink": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "align": {
+                                "ref": "",
+                                "original": 3
+                            },
+                            "ds": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "showE0E1": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "unit": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "UT",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "showDbE0E1": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "showUT": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "timeFormat": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "ofShow": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "isOfData": {
+                                "ref": "",
+                                "original": 0
+                            }
+                        },
+                        "type": "GraphDynaValDisplay",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaValDisplay",
+                        "id": "1",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "autoFrame": true,
+                "scaleFont": false,
+                "height": 50,
+                "type": "Text",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "textWrap": 0,
+                "textHAlign": 1,
+                "textVAlign": 1,
+                "localRect": [
+                    {
+                        "x": 790,
+                        "y": 23
+                    },
+                    {
+                        "x": 892,
+                        "y": 23
+                    },
+                    {
+                        "x": 892,
+                        "y": 73
+                    },
+                    {
+                        "x": 790,
+                        "y": 73
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#000000"
+                },
+                "roatePos": {
+                    "x": 841.0000000000001,
+                    "y": 47.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1114",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1114",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 1,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 46,
+                        "y": 110
+                    },
+                    {
+                        "x": 446,
+                        "y": 110
+                    },
+                    {
+                        "x": 446,
+                        "y": 510
+                    },
+                    {
+                        "x": 46,
+                        "y": 510
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 246.00000000000006,
+                    "y": 309.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1116",
+                "moveable": true,
+                "name": "Ellipse1116",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 2,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 43,
+                        "y": 106
+                    },
+                    {
+                        "x": 83,
+                        "y": 106
+                    },
+                    {
+                        "x": 83,
+                        "y": 146
+                    },
+                    {
+                        "x": 43,
+                        "y": 146
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 100.99999999999999,
+                    "y": 125.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1117",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1117",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 3,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 502,
+                        "y": 111
+                    },
+                    {
+                        "x": 902,
+                        "y": 111
+                    },
+                    {
+                        "x": 902,
+                        "y": 511
+                    },
+                    {
+                        "x": 502,
+                        "y": 511
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 702,
+                    "y": 310.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1118",
+                "moveable": true,
+                "name": "Ellipse1118",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 4,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 499,
+                        "y": 107
+                    },
+                    {
+                        "x": 539,
+                        "y": 107
+                    },
+                    {
+                        "x": 539,
+                        "y": 147
+                    },
+                    {
+                        "x": 499,
+                        "y": 147
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 557.0000000000001,
+                    "y": 126.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1119",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1119",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 5,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 950,
+                        "y": 111
+                    },
+                    {
+                        "x": 1350,
+                        "y": 111
+                    },
+                    {
+                        "x": 1350,
+                        "y": 511
+                    },
+                    {
+                        "x": 950,
+                        "y": 511
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1150,
+                    "y": 310.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1120",
+                "moveable": true,
+                "name": "Ellipse1120",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 6,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    },
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": null
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": null
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "2",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 947,
+                        "y": 107
+                    },
+                    {
+                        "x": 987,
+                        "y": 107
+                    },
+                    {
+                        "x": 987,
+                        "y": 147
+                    },
+                    {
+                        "x": 947,
+                        "y": 147
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1005,
+                    "y": 126.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1121",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1121",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 7,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 1417,
+                        "y": 112
+                    },
+                    {
+                        "x": 1817,
+                        "y": 112
+                    },
+                    {
+                        "x": 1817,
+                        "y": 512
+                    },
+                    {
+                        "x": 1417,
+                        "y": 512
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1617,
+                    "y": 311.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1122",
+                "moveable": true,
+                "name": "Ellipse1122",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 8,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [
+                            {
+                                "logicSign": 0,
+                                "leftValue": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                },
+                                "num": "0",
+                                "rightValue": "0",
+                                "sign": 2
+                            }
+                        ],
+                        "value": null,
+                        "key": 16777221
+                    },
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": null
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": null
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 200
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "2",
+                        "conditions": [
+                            {
+                                "logicSign": 0,
+                                "leftValue": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                },
+                                "num": "0",
+                                "rightValue": "0",
+                                "sign": 2
+                            }
+                        ],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 1414,
+                        "y": 108
+                    },
+                    {
+                        "x": 1454,
+                        "y": 108
+                    },
+                    {
+                        "x": 1454,
+                        "y": 148
+                    },
+                    {
+                        "x": 1414,
+                        "y": 148
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1472,
+                    "y": 127.99999999999994
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1123",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1123",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 9,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 40,
+                        "y": 558
+                    },
+                    {
+                        "x": 440,
+                        "y": 558
+                    },
+                    {
+                        "x": 440,
+                        "y": 958
+                    },
+                    {
+                        "x": 40,
+                        "y": 958
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 240.0000000000001,
+                    "y": 758.0000000000002
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1124",
+                "moveable": true,
+                "name": "Ellipse1124",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 10,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": true,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [
+                            {
+                                "logicSign": 0,
+                                "leftValue": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                },
+                                "num": "0",
+                                "rightValue": "0",
+                                "sign": 4
+                            }
+                        ],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 37,
+                        "y": 554
+                    },
+                    {
+                        "x": 77,
+                        "y": 554
+                    },
+                    {
+                        "x": 77,
+                        "y": 594
+                    },
+                    {
+                        "x": 37,
+                        "y": 594
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 95.00000000000001,
+                    "y": 574
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1126",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1126",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 11,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 493,
+                        "y": 556
+                    },
+                    {
+                        "x": 893,
+                        "y": 556
+                    },
+                    {
+                        "x": 893,
+                        "y": 956
+                    },
+                    {
+                        "x": 493,
+                        "y": 956
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 693.0000000000001,
+                    "y": 755.9999999999998
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1125",
+                "moveable": true,
+                "name": "Ellipse1125",
+                "draggable": true,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 12,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "_originInfo": {
+                    "width": 40,
+                    "height": 40
+                },
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 490,
+                        "y": 552
+                    },
+                    {
+                        "x": 530,
+                        "y": 552
+                    },
+                    {
+                        "x": 530,
+                        "y": 592
+                    },
+                    {
+                        "x": 490,
+                        "y": 592
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 548.0000000000002,
+                    "y": 572
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1128",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1128",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 13,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 945,
+                        "y": 557
+                    },
+                    {
+                        "x": 1345,
+                        "y": 557
+                    },
+                    {
+                        "x": 1345,
+                        "y": 957
+                    },
+                    {
+                        "x": 945,
+                        "y": 957
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1145.0000000000002,
+                    "y": 757
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1127",
+                "moveable": true,
+                "name": "Ellipse1127",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 14,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    },
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": null
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": ""
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": null
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": null
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": false,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "2",
+                        "conditions": [],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 942,
+                        "y": 553
+                    },
+                    {
+                        "x": 982,
+                        "y": 553
+                    },
+                    {
+                        "x": 982,
+                        "y": 593
+                    },
+                    {
+                        "x": 942,
+                        "y": 593
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1000,
+                    "y": 573
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1130",
+                "moveable": true,
+                "height": 400,
+                "name": "Rectangle1130",
+                "width": 400,
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "isTemplateFill": 0,
+                "rectangleVer": 1,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "矩形",
+                "zIndex": 15,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "limitForm": 1,
+                "tabOrder": true,
+                "type": "Rectangle",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "borderWidth": 10,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 1414,
+                        "y": 558
+                    },
+                    {
+                        "x": 1814,
+                        "y": 558
+                    },
+                    {
+                        "x": 1814,
+                        "y": 958
+                    },
+                    {
+                        "x": 1414,
+                        "y": 958
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#55ff7f",
+                    "endColor": "#ffff7f",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1614,
+                    "y": 758.0000000000002
+                },
+                "textColor": {
+                    "startColor": "#55ff7f"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "location": ""
+            },
+            {
+                "id": "1129",
+                "moveable": true,
+                "name": "Ellipse1129",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 16,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": true,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [
+                            {
+                                "logicSign": 0,
+                                "leftValue": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                },
+                                "num": "0",
+                                "rightValue": "0",
+                                "sign": 4
+                            }
+                        ],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 1412,
+                        "y": 728
+                    },
+                    {
+                        "x": 1452,
+                        "y": 728
+                    },
+                    {
+                        "x": 1452,
+                        "y": 768
+                    },
+                    {
+                        "x": 1412,
+                        "y": 768
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1470.0000000000002,
+                    "y": 748
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            },
+            {
+                "id": "1131",
+                "moveable": true,
+                "name": "Ellipse1131",
+                "libraryName": "",
+                "lockSize": false,
+                "auth": "",
+                "templateGraph": 1,
+                "allowOnlineSel": true,
+                "tabNumber": 0,
+                "blink": false,
+                "ellipseVer": 1,
+                "isTemplateFill": 0,
+                "lockSymbol": false,
+                "lockFreeRotation": false,
+                "lockedSymbolPwd": "",
+                "typeDes": "椭圆",
+                "zIndex": 17,
+                "area": "",
+                "ver": 1,
+                "pId": "0",
+                "updateTime": "",
+                "dynamicDyna": [
+                    {
+                        "scripText": "Ly9FZGl0IHlvdXIgY29kZSBoZXJlIHRoZW4gQXNzaWduIHRoZSBmaW5hbCByZXN1bHQgdG8gQ2FsY1JldApib29sZWFuIENhbGNSZXQgPSBmYWxzZTsKcmV0dXJuIENhbGNSZXQ7Cg==",
+                        "ver": 1,
+                        "bRun": true,
+                        "pars": {
+                            "hSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "vMove": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "hUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "hMove": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMdItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MD",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMuItem": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "MU",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "vMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "reBack": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vUseDB": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vSpeed": {
+                                "ref": "",
+                                "original": 20
+                            },
+                            "hMu": {
+                                "ref": "",
+                                "original": 100
+                            },
+                            "hDs": {
+                                "ref": {
+                                    "itemName": "",
+                                    "domain": "",
+                                    "tagName": ""
+                                },
+                                "original": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10000:AI_001",
+                                    "type": "m"
+                                }
+                            },
+                            "moveMode": {
+                                "ref": "",
+                                "original": 1
+                            },
+                            "vDistance": {
+                                "ref": "",
+                                "original": 400
+                            },
+                            "hMd": {
+                                "ref": "",
+                                "original": 0
+                            },
+                            "vMu": {
+                                "ref": "",
+                                "original": 100
+                            }
+                        },
+                        "type": "GraphDynaMove",
+                        "script": false,
+                        "not": true,
+                        "act": 1,
+                        "name": "GraphDynaMove",
+                        "id": "1",
+                        "conditions": [
+                            {
+                                "logicSign": 0,
+                                "leftValue": {
+                                    "itemName": "AV",
+                                    "domain": "-1",
+                                    "tagName": "10003:AI_001",
+                                    "type": "m"
+                                },
+                                "num": "0",
+                                "rightValue": "0",
+                                "sign": 4
+                            }
+                        ],
+                        "value": null,
+                        "key": 16777221
+                    }
+                ],
+                "limitForm": 1,
+                "interactiveDyna": [],
+                "tabOrder": true,
+                "type": "Ellipse",
+                "layer": "1",
+                "scaleY": 1,
+                "horMirror": false,
+                "scaleX": 1,
+                "verMirror": false,
+                "showFrame": false,
+                "borderWidth": 1,
+                "borderStyle": 0,
+                "localRect": [
+                    {
+                        "x": 1600,
+                        "y": 555
+                    },
+                    {
+                        "x": 1640,
+                        "y": 555
+                    },
+                    {
+                        "x": 1640,
+                        "y": 595
+                    },
+                    {
+                        "x": 1600,
+                        "y": 595
+                    }
+                ],
+                "fillColor": {
+                    "startColor": "#ff0000",
+                    "endColor": "#ff00ff",
+                    "gradientMode": "linear",
+                    "centerX": 1,
+                    "centerY": 1
+                },
+                "roatePos": {
+                    "x": 1658,
+                    "y": 575
+                },
+                "textColor": {
+                    "startColor": "#ff0000"
+                },
+                "borderColor": {
+                    "startColor": "#000000"
+                },
+                "width": 40,
+                "height": 40,
+                "location": ""
+            }
+        ],
+        "pageScript": [
+            {
+                "title": "脚本1",
+                "content": "aaa",
+                "objId": "1"
+            }
+        ]
+    }
+}
