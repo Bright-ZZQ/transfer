@@ -1,1 +1,6 @@
-172.21.44.135/hmi/trend-chart-mobile?id=1896390020779905024&category=1
+resolve: {
+    alias: {
+      'package-a': path.resolve(__dirname, '../package-a/src/index.js'),
+      'package-b': path.resolve(__dirname, '../package-b/src/index.js'),
+    },
+  },
