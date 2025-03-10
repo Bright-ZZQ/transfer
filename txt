@@ -1,6 +1,17 @@
-resolve: {
-    alias: {
-      'package-a': path.resolve(__dirname, '../package-a/src/index.js'),
-      'package-b': path.resolve(__dirname, '../package-b/src/index.js'),
-    },
-  },
+import MyPackageA from 'package-a'
+
+const app = createApp(App)
+app.use(MyPackageA)
+app.mount('#app')
+
+export default {
+    install: (app) => {
+        app.component('HelloPackageA', HelloPackageA);
+
+        // 方式一：全量引入Element-Plus
+        app.use(ElementPlus);
+
+        // 方式二：按需引入Element-Plus
+        // app.component('ElButton', ElementPlus.ElButton);
+    }
+}
