@@ -1,17 +1,21 @@
-import MyPackageA from 'package-a'
-
-const app = createApp(App)
-app.use(MyPackageA)
-app.mount('#app')
-
-export default {
-    install: (app) => {
-        app.component('HelloPackageA', HelloPackageA);
-
-        // 方式一：全量引入Element-Plus
-        app.use(ElementPlus);
-
-        // 方式二：按需引入Element-Plus
-        // app.component('ElButton', ElementPlus.ElButton);
-    }
-}
+splitNumber: 8,
+  alignTicks: true,
+  splitLine: {
+    show: trendConfig?.displayGrid,
+    lineStyle: {
+      color: trendConfig?.webcolor || ['#f4f4f5'],
+      width: 1,
+      type: 'solid',
+    },
+  },
+  // 轴线设置
+  axisLine: {
+    show: true,
+    lineStyle: {
+      color: trendConfig?.txtcolor ?? '#fff',
+    },
+  },
+  //刻度线设置
+  axisTick: {
+    show: true,
+  },
